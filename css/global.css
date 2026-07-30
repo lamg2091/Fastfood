@@ -70,7 +70,7 @@ input {
 	}
 
 	span {
-		color: var(--color-light);
+		color: var(--color-primary);
 		font-size: 26px;
 		font-weight: 600;
 	}
@@ -134,7 +134,7 @@ input {
 }
 
 .title {
-	font-size: 42px;
+	font-size: 40px;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	font-weight: 800;
