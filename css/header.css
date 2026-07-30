@@ -63,6 +63,32 @@ header {
             }
         }
     }
+    .btn-container{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .dark-mode{
+      display: flex;
+      align-items: center;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      width: 60px;
+      margin-right: 0 20px;
+      justify-content: space-between;
+      background-color: var(--color-primary);
+      position: absolute;
+      right: 5%;
+      transform: translatey(-50%);
+
+      .fa-sun{
+        display: none;
+        color: var(--color-light);
+      }
+
+    }
   }
   .menu-responsive {
     position: absolute;

@@ -1,3 +1,4 @@
+
 .hero-banner {
   background-image: url(../images/home/hero-bg.jpg);
   background-position: center;
@@ -90,7 +91,6 @@
       transform: translateY(-50%) translateX(50%);
     }
   }
-
   @media screen and (max-width: 992px) {
     height: auto;
     padding-top: 140px;
