@@ -42,6 +42,7 @@ header {
         }
       }
     }
+    
     .btn-toggle{
         display: none;
         justify-content: center;
@@ -64,6 +65,7 @@ header {
         }
     }
   }
+ 
   .menu-responsive {
     position: absolute;
     left: 0;
