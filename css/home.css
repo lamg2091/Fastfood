@@ -243,15 +243,24 @@
     .container-images {
       padding: 0 15px;
       overflow-x: hidden;
-      .main-images { width: 100% !important; max-width: none; height: auto; }
-      .alt-images { width: 90px; height: 90px; left: 5% !important; border-width: 4px; bottom: -10px; }
+      .main-images { 
+        width: 100% !important; max-width: none; height: auto; 
+      }
+      .alt-images { 
+        width: 100px; 
+        height: 100px; 
+        left: 2% !important; 
+        border-width: 4px; 
+        bottom: -10px; 
+        top: 70%;
+      }
       .card-info {
         position: relative !important;
-        top: auto !important;
+        top: -1000px !important;
         right: auto !important;
-        left: auto !important;
+        left: 70% !important;
         box-sizing: border-box;
-        width: 100% !important;
+        width: 200px !important;
         max-width: 100%;
         margin-top: 15px;
       }
@@ -432,7 +441,9 @@
   /* Móvil */
   @media screen and (max-width: 768px) {
     .container-images {
-      img { width: 100%; }
+      img { 
+        width: 100%; 
+      }
       .card-info {
         position: relative !important;
         right: auto !important;
@@ -441,11 +452,18 @@
         margin-top: 15px;
         padding: 15px;
         gap: 5px;
-        h3 { font-size: 18px; }
+
+        h3{ 
+          font-size: 18px; 
+        }
         ul li {
           gap: 5px;
-          i { font-size: 16px; padding: 3px; }
-          span { font-size: 14px; }
+
+          i { 
+            font-size: 16px; padding: 3px; 
+          }
+          span { 
+            font-size: 14px; }
         }
       }
     }
@@ -620,7 +638,11 @@
       align-items: center;
       gap: 20px;
 
-      p { font-size: 18px; color: var(--color-light); font-weight: 800; text-align: center; }
+      p { 
+        font-size: 
+        18px; color: var(--color-light); 
+        font-weight: 800; 
+        text-align: center; }
 
       .images-customers {
         position: relative;
@@ -676,36 +698,59 @@
         flex-direction: column;
         gap: 15px;
 
-        i { font-size: 32px; color: var(--color-primary); }
-        h3 { font-size: 20px; width: 65%; color: var(--color-light); font-weight: 700; text-align: center; }
+        i { 
+          font-size: 32px; color: var(--color-primary); 
+        }
+        h3 { 
+          font-size: 
+          20px; width: 
+          65%; color: var(--color-light); 
+          font-weight: 700; 
+          text-align: center; }
       }
     }
-    .container-button { align-self: flex-start; }
+    .container-button { 
+      align-self: flex-start; 
+    }
   }
 
   /* Tablet */
   @media screen and (max-width: 992px) {
-    & > div { flex-direction: column; gap: 50px; }
+    & > div { 
+      flex-direction: column; 
+      gap: 50px; 
+    }
     .content {
       order: -1;
-      p { font-size: 16px; }
-      .container-options .container-option h3 { font-size: 18px; }
-      .container-button { align-self: center; }
+      p { 
+        font-size: 16px; 
+      }
+      .container-options .container-option h3 { 
+        font-size: 18px; 
+      }
+      .container-button { 
+        align-self: center; 
+      }
     }
-    .container-images { order: 1; }
+    .container-images { 
+      order: 1; 
+    }
   }
 
   /* Móvil */
   @media screen and (max-width: 768px) {
-    .content .container-options .container-option i { font-size: 24px; }
+    .content .container-options .container-option i { 
+      font-size: 24px; 
+    }
     .container-images {
       .card-customers {
         position: relative !important;
-        width: 100% !important;
+        width: 300px !important;
         height: auto;
-        bottom: auto !important;
+        bottom: 200px !important;
         left: auto !important;
         margin-top: 20px;
+        top: 50%
       }
     }
   }
@@ -1023,8 +1068,7 @@
 
   /* Móvil */
   @media screen and (max-width: 768px) {
-    .space { display: none; }
-    .contact-form {
+    .space { display: none; }    .contact-form {
       position: relative !important;
       top: auto !important;
       right: auto !important;
